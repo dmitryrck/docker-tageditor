@@ -13,8 +13,6 @@ $ docker run --rm \
   -v /tmp/.X11-unix:/tmp/.X11-unix \
   -u $(id -u) \
   -e HOME \
-  -v $HOME/Books:$HOME/Books \
-  -v $HOME/Dropbox/Calibre-config:$HOME/.config/calibre \
   dmitryrck/tageditor easytag
 ```
 
